@@ -1,0 +1,355 @@
+.section-1{
+    /* background-color: red; */
+    background-image: url(images/new-banner.jpg);
+    height: 800px;
+    background-color: #f7bd01;
+    background-repeat: no-repeat;
+    /* opacity: 0.7; */
+}
+.logo img{
+    padding-top: 20px;
+}
+nav{
+    padding-top: 50px;
+    color: white;
+    
+}
+nav button{
+    color: white;
+}
+nav ul{
+    float: left;
+}
+
+nav ul li{
+    display: inline;
+    padding-left: 55px;
+    font-size: 18px;
+    color: white;
+}
+#navbarSupportedContent ul li a{
+    color: white;
+}
+.navbar-light .navbar-toggler{
+    background-color: white;
+}
+nav.navbar.navbar-expand-lg.navbar-light {
+    float: right;
+}
+div#navbarSupportedContent {
+    padding-top: 27px;
+}
+.banner-head{
+    margin-top: 175px;
+}
+.banner-head h1{
+    color: white;
+    font-weight: 800;
+    font-size: 2.8em;
+}
+.banner-head p{
+    font-size: 16px;
+    color: white;
+    padding-top: 10px;
+}
+.banner-head button{
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.banner-form{
+    margin-top: 75px;
+    background-color: white;
+    padding: 29px 22px 22px 29px;
+    border-radius: 22px;
+    border-left: 10px solid;
+    border-bottom: 10px solid;
+    border-color: #f7bd01;
+}
+.banner-txt h1{
+    font-weight: 800;
+    font-style: italic;
+    line-height: 0.9;
+}
+.banner-form button{
+    font-size: 16px;
+    font-weight: 700;
+}
+.form-group label{
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}
+.section-2{
+    background-color: rgb(255, 255, 255);
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+.section-3{
+    background-color: #f7bd01;
+}
+.sec-2{
+    text-align: center;
+}
+.sec-2 h1{
+    font-size: 2.3em;
+    font-weight: 800;
+    color: black;
+}
+.sec-3 img{
+    width: 100%;
+}
+.sec-3p{
+    padding-top: 100px;
+}
+.sec-3p h1{
+    color: black;
+    font-weight: 800;
+    font-size: 2.8em;
+}
+.sec-3p p{
+    font-size: 16px;
+    color: black;
+    padding-top: 10px;
+}
+.sec-3p button{
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.section-4{
+    padding-top: 90px;
+    padding-bottom: 50px;
+    background-color: aliceblue;
+}
+.sec-4p button{
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.sec-4 img{
+    padding-top: 45px;
+    width: 100%;
+}
+
+.sec-4p h1{
+    color: black;
+    font-weight: 800;
+    font-size: 2.8em;
+}
+.sec-4p p{
+    font-size: 16px;
+    color: black;
+    padding-top: 10px;
+}
+.sec-5{
+    text-align: center;
+    padding-top: 120px;
+}
+.sec-5 h1{
+    font-size: 2.3em;
+    font-weight: 800;
+    color: black;
+}
+.sec-5 p{
+    font-size: 16px;
+    color: black;
+    padding-top: 10px;
+}
+.section-5{
+    margin-bottom: 50px;
+}
+.port-section{
+    margin-top: 23px;
+}
+.port img{
+    opacity: 0.8;
+    transition: 0.3s;
+    width: 100%;
+    
+}
+.port img:hover{
+    opacity: 1;
+    cursor: pointer;
+    -webkit-transform: scale(1.1);
+-ms-transform: scale(1.1);
+transform: scale(1.1);
+transition: 1s ease;
+/* transition: 1s ease; */
+    /* transition: cubic-bezier(0.455, 0.03, 0.515, 0.955); */
+}
+.section-6{
+    background-image: url(images/new-banner.jpg);
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-attachment: fixed;
+}
+.sec-6p h1{
+    font-size: 2.4em;
+    font-weight: 800;
+    color: white;
+}
+.sec-6p ul{
+    list-style: circle;
+    color: white;
+    float: left;
+    margin-top: 16px;
+}
+.sec-6p ul li {
+    font-size: 16px;
+    margin-top: 5px;
+}
+.sec-6p button{
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 20px;
+    width: 100%;
+}
+.sec-6img{
+    margin-top: 40px;
+    float: right;
+}
+.sec-6img img{
+    width: 100%;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+.sec-6img img:hover{
+    opacity: 1;
+    cursor: pointer;
+    -webkit-transform: scale(1.1);
+-ms-transform: scale(1.1);
+transform: scale(1.1);
+transition: 1s ease;
+}
+
+
+/* Section-7 FOR TESTIMONIAL SLIDER BEGIN */
+
+#quote-carousel {
+    padding: 0 10px 30px 10px;
+    margin-top: 60px;
+}
+#quote-carousel .carousel-control {
+    background: none;
+    color: #CACACA;
+    font-size: 2.3em;
+    text-shadow: none;
+    margin-top: 30px;
+}
+#quote-carousel .carousel-indicators {
+    position: relative;
+    right: 50%;
+    top: auto;
+    bottom: 0px;
+    margin-top: 20px;
+    margin-right: -19px;
+}
+#quote-carousel .carousel-indicators li {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    opacity: 0.4;
+    overflow: hidden;
+    transition: all .4s ease-in;
+    vertical-align: middle;
+}
+#quote-carousel .carousel-indicators .active {
+    width: 128px;
+    height: 128px;
+    opacity: 1;
+    transition: all .2s;
+}
+.item blockquote {
+    border-left: none;
+    margin: 0;
+}
+.item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+}
+
+/* Section-7 FOR TESTIMONIAL SLIDER BEGIN */
+
+
+.home-testimonial{
+    background-color: #f7bd01;
+    height: 380px;
+}
+.home-testimonial-bottom{
+    background-color: #f8f8f8;
+    transition: 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    position: relative;
+    height: 130px;
+    top: 190px;
+}
+.home-testimonial h3{
+    color: var(--orange);
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.home-testimonial h2{
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    font-weight: 700;
+}
+.testimonial-inner{
+    position: relative;
+    top: -174px;
+}
+.testimonial-pos{
+    position: relative;
+    top: 24px;
+}
+.testimonial-inner .tour-desc{
+    border-radius: 5px;
+    padding: 40px;
+}
+.color-grey-3{
+    font-family: "Montserrat", Sans-serif;
+    font-size: 14px;
+    color: #6c83a2;
+}
+.testimonial-inner img.tm-people{
+    width: 60px;
+    height: 60px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    max-width: none;
+}
+.link-name{
+    font-family: "Montserrat", Sans-serif;
+    font-size: 14px;
+    color: #6c83a2;
+}
+.link-position{
+    font-family: "Montserrat", Sans-serif;
+    font-size: 12px;
+    color: #6c83a2;
+}
+.section-7{
+    padding-bottom: 70px;
+}
+
+/* Section-7 FOR TESTIMONIAL SLIDER END */
+
+
+.section-8{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.foot-1{
+    padding-top: 30px;
+    color: white;
+    font-weight: 500;
+}
